@@ -10,7 +10,7 @@ public class SwitchGradeMessage {
 
         //Input your grade message
         Scanner scanner = new Scanner(System.in);
-        String grade = scanner.next();
+        String grade = scanner.next().toUpperCase();
         //Declare message to be returned
         String message;
         scanner.close();
