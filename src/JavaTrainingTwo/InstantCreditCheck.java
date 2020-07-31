@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class InstantCreditCheck {
     public static void main(String[] args) {
         creditCheck();
+
     }
     public static void creditCheck() {
         Scanner scanner = new Scanner(System.in);
@@ -23,5 +24,6 @@ public class InstantCreditCheck {
             System.out.println("You do not Qualify for a Credit");
 
         }
+
     }
 }
